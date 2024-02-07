@@ -1,1 +1,1 @@
-Site de apresentação dizendo que eu sou e apresentando alguns projetos
+Site de apresentação dizendo quem eu sou e apresentando alguns projetos
