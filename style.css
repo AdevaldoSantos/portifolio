@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #e4ebff;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #cbd7ff;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px #cbd7ff;
+}
+
+#foto {
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f9dff;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px; 
+    box-shadow: 10px 10px 10px #2d385c;  
+    transition: background-color 0.3s ease;
+}
+
+#descricao {
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f9dff;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px; 
+    box-shadow: 10px 10px 10px #2d385c; 
+    transition: background-color 0.3s ease;
+}
+
+#lingua {
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f9dff;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px; 
+    box-shadow: 10px 10px 10px #2d385c; 
+    transition: background-color 0.3s ease;
+}
+
+#contatos {
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7f9dff;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px; 
+    box-shadow: 10px 10px 10px #2d385c; 
+    transition: background-color 0.3s ease;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 100px;
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: cursive;
+}
+
+#imgAde {
+    margin: 30px;
+    padding: 2px;
+    background-color: #bdccff;
+    width: 25%;
+    border-radius: 100px;
+    box-shadow: 0px 5px 10px 0px #bdccff;
+}
+
+
+#whatsappInc, #instagramInc, #githubInc, #linkdInInc{
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #bdccff;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#primeiraDesc, #segundaDesc, #terceiroDesc, #quartoDesc {
+    background-color: #8aa4fa;
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px ;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
