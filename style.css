@@ -146,11 +146,14 @@ h1 {
 
 #css {
     display: flex;
-    justify-content: flex-end;
+    align-items: end;
+    flex-direction: row-reverse;
+
 }
 #css img {
     width: 100px;
 }
+
 
 
 #javascript {
@@ -164,7 +167,8 @@ h1 {
 
 #typescript {
     display: flex;
-    justify-content: flex-end;
+    align-items: end;
+    flex-direction: row-reverse;;
 }
 #typescript img {
     width: 100px;
