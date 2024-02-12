@@ -102,7 +102,7 @@ h1 {
     height: 50px;
 }
 
-section {
+#sectionDesc {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -124,6 +124,59 @@ section {
     border-radius: 4px;
     box-shadow: 0px 10px 10px ;
     margin: 10px;
+}
+
+#sectionLing {
+    display: flex;
+    background-color: #bdccff;
+    border-radius: 4px;
+    padding: 40px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#html {
+    display: flex;
+    justify-content: flex-start;
+}
+#html img {
+    width: 100px;
+}
+
+
+#css {
+    display: flex;
+    justify-content: flex-end;
+}
+#css img {
+    width: 100px;
+}
+
+
+#javascript {
+    display: flex;
+    justify-content: flex-start;
+}
+#javascript img {
+    width: 100px;
+}
+
+
+#typescript {
+    display: flex;
+    justify-content: flex-end;
+}
+#typescript img {
+    width: 100px;
+}
+
+
+#gitgithub {
+    display: flex;
+    justify-content: flex-start;
+}
+#gitgithub img {
+    width: 100px;
 }
 
 footer {
