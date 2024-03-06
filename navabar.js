@@ -1,3 +1,4 @@
+const navegador = document.getElementById("nav")
 const navFoto = document.getElementById('foto')
 const navDescricao = document.getElementById('descricao')
 const navLingua = document.getElementById('lingua')
@@ -49,4 +50,15 @@ const mudarCorCtt = () => {
 }
 const restaurarCorCtt = () => {
     navContatos.style.backgroundColor = "#7f9dff"
+}
+
+navegador.onmouseover = () => mostrar()
+navegador.onmouseout = () => ocutar()
+
+const mostrar = () => {
+
+}
+
+const ocutar = () => {
+    
 }

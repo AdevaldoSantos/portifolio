@@ -16,16 +16,27 @@ body {
     position: fixed;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #cbd7ff;
-    padding: 10px;
+    padding: 0px;
     box-shadow: 0px 10px 10px 0px #cbd7ff;
+}
+
+
+@media (max-width: 881px) {
+    #nav {
+        position: relative;
+    }
 }
 
 a {
     color: #000000;
     text-decoration: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 #foto {
@@ -42,6 +53,13 @@ a {
     transition: background-color 0.3s ease;
 }
 
+@media (max-width: 881px) {
+    #foto {
+    width: 300px;
+    height: 40px;
+    }
+}
+
 #Site {
     font-size: 20px;
     font-family: cursive;
@@ -54,6 +72,13 @@ a {
     height: 40px; 
     box-shadow: 10px 10px 10px #2d385c; 
     transition: background-color 0.3s ease;
+}
+
+@media (max-width: 881px) {
+    #Site {
+    width: 300px;
+    height: 40px;
+    }
 }
 
 #lingua {
@@ -70,6 +95,13 @@ a {
     transition: background-color 0.3s ease;
 }
 
+@media (max-width: 881px) {
+    #lingua {
+    width: 300px;
+    height: 40px;
+    }
+}
+
 #contatos {
     font-size: 20px;
     font-family: cursive;
@@ -84,6 +116,13 @@ a {
     transition: background-color 0.3s ease;
 }
 
+@media (max-width: 881px) {
+    #contatos {
+    width: 300px;
+    height: 40px;
+    }
+}
+
 main {
     padding: 30px;
     display: flex;
@@ -96,6 +135,13 @@ h1 {
     padding-top: 100px;
     font-family: cursive;
 }
+@media (max-width: 881px) {
+    h1 {
+        padding: 0px;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+}
 
 #imgAde {
     width: 25%;
@@ -103,6 +149,12 @@ h1 {
     box-shadow: 0px 5px 10px 0px #bdccff;
 }
 
+@media (max-width: 881px) {
+    #imgAde {
+        width: 300px;
+        height: 300px;
+    }
+}
 
 
 #sectionsite {
